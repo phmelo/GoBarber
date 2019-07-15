@@ -2,6 +2,7 @@
 //  const routes = require("./routes");
 import express from 'express'; // Babel or Babel Node or Sucrase
 import routes from './routes';
+import './database';
 
 class App {
   constructor() {
